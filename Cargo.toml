@@ -1,11 +1,11 @@
 [package]
 name = "arloader"
-authors = ["calebeverett <caleb@calebeverett.io>"]
+authors = ["calebeverett <caleb@calebeverett.io>", "crnorthc"]
 description = "Command line application and library for uploading files to Arweave."
-version = "0.1.63"
+version = "0.1.0"
 edition = "2021"
 license = "Apache-2.0"
-repository = "https://github.com/CalebEverett/arloader"
+repository = "https://github.com/crnorthc/arloader"
 documentation = "https://docs.rs/arloader/latest/arloader/"
 keywords = ["arweave", "nft", "metaplex", "solana", "upload"]
 categories = ["api-bindings", "command-line-utilities", "filesystem"]
@@ -44,7 +44,7 @@ reqwest = { version = "0.11", features = ["json"] }
 serde = "1.0.130"
 serde_derive = "1.0.130"
 serde_json = { version = "1.0.68", features = ["preserve_order"] }
-solana-sdk = "1.8.2"
+solana-sdk = "2.3.0"
 thiserror = "1.0.30"
 tokio = { version = "1", features = ["rt-multi-thread", "fs", "macros", ] }
 url = "2.2.2"
